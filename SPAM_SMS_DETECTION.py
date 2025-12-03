@@ -83,7 +83,7 @@ joblib.dump(vectorizer, os.path.join(BASE_DIR, 'tfidf_vectorizer.pkl'))
 # Create main window
 root = tk.Tk()
 root.title("Spam SMS Detector")
-root.geometry("875x540")
+root.geometry("835x560")
 root.resizable(False, False)
 
 # Styling
